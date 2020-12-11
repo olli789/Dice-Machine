@@ -1,0 +1,44 @@
+header {display: flex;
+    width: 100%;
+    background-color: red;
+    height: 100px;
+    justify-content: center;
+}
+
+
+
+div.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    border: #999 1px solid;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: red;
+    cursor: pointer;
+}
